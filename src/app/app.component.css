@@ -1,3 +1,9 @@
-p {
-  font-family: Lato;
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.template, .reactive {
+  flex: 1 0 auto;
+  margin: 40px;
 }
